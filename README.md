@@ -42,7 +42,8 @@ The analysis indicates that the best approach to implementing a succesful bikesh
 - subscribers making about 80% of the total bikesharing trips in NYC
 - the peak in trip data originating at Grand Central Station (commuters)
 - the peak in trip duration (for both genders) of 5-10 minutes
-- the peaks in trip times at the beginning and end of each weekday<br />
+- the peaks in trip times at the beginning and end of each weekday
+
 Furthermore, placing stations so that commuters would have an easier time utilizing the bikes would be good.  Some examples would be near parking garages, train and bus stops, and near places with many employees. Other ideal locations would be where there aren't not many parking garages, as the walking time back to a car mahy be longer for employees near there.<br />
 
 ## Recommendations for Further Study
