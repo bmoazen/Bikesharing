@@ -5,7 +5,7 @@ In this analysis, we were tasked with using Tableau to look into investing in a 
 ## Resources
 VS Code<br />
 Python version 3.7.6<br />
-Tableau version 3.7.6 ([Tableau Workbook Link](https://public.tableau.com/app/profile/brian.moazen/viz/citibikeData_201908/TripsbyAgeandGender))<br />
+Tableau version 3.7.6 ([Tableau Workbook Link](https://public.tableau.com/app/profile/brian.moazen/viz/citibikeData_201908/TripsMap))<br />
 
 ## Results
 ### Concerns Regarding Data
@@ -41,8 +41,8 @@ A brief summary of the NYC Citibike data is given below:
 The analysis indicates that the best approach to implementing a succesful bikesharing program would be to focus on gaining subscribers rather than focusing on tourists, especially given the relatively few number of tourists in Des Moines, Iowa compared to that of New York City. Reasons supporting this conclusion imclude:
 - the peak in trip data originating at Grand Central Station (commuters)
 - the peak in trip duration (for both genders) of 5-10 minutes
-- the peaks in trip times at the beginning and end of each weekday
-Furthermore, placing stations so that commuters would have an easier time utilizing the bikes would be good.  Some examples would be near parking garages, train and bus stops, and near places with many employees.<br />
+- the peaks in trip times at the beginning and end of each weekday<br />
+Furthermore, placing stations so that commuters would have an easier time utilizing the bikes would be good.  Some examples would be near parking garages, train and bus stops, and near places with many employees. Other ideal locations would be where there aren't not many parking garages, as the walking time back to a car mahy be longer for employees near there.<br />
 
 ## Recommendations for Further Study
 A next step in this study should include data on Des Moines, Iowa.  A map of the city's parking garages and bus and train stops would be invaluable in helping to determine optimum bike station locations.  Surveys of downtown employees on their thoughts about a bikesharing program should be performed, as well as studies on the commutes of residents (are they parking in a garage right next to their places of business or is there a walk?).
