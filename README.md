@@ -24,15 +24,27 @@ The majority of trips take roughly 5-10 minutes (regardless of gender) with very
 Looking at trip duration by user type (subscriber or customer) shows that while the peak for the subscribers is in the 5-10 minute range (expected since they are the overwhelming majority), the distribution for customers is relatively flat between 5 and 30 minutes. This supports the conclusion that subscribers tend to have shorter trip times than customers.
 ![](/Plots/Trip%20Duration%20by%20Type.png)<br /> 
 <br />
-With the duration of trips rather short and the majority of users being residents, it would most likely be wise to focus on gathering subscribers rather than targeting tourists or visitors.
 
 ### Trip Ending Times
 Just as the trip duration analysis indicated, looking at trip ending times by weekday also suggests a focus on subscribers would be ideal.  Below is a plot of frequency of bike rides by time and weekday.  Peaks are located at the beginning and end of workdays, as well as Saturday afternoon.
 ![](/Plots/Trips%20by%20Weekday.png). <br /> 
 
-## Summary and Recommendations
+## Summary of Data
+A brief summary of the NYC Citibike data is given below:
+- the largest number of trips originated from the station nearest to Grand Central Station
+- Most trips range have a duration of roughly 5-10 minutes
+- Subscribers make about 80% of trips
+- Peak times include the morning and evening "rush hours" and Saturday afternoons
+<br />
+
+## Recommendations for Implementation
 The analysis indicates that the best approach to implementing a succesful bikesharing program would be to focus on gaining subscribers rather than focusing on tourists, especially given the relatively few number of tourists in Des Moines, Iowa compared to that of New York City. Reasons supporting this conclusion imclude:
 - the peak in trip data originating at Grand Central Station (commuters)
 - the peak in trip duration (for both genders) of 5-10 minutes
 - the peaks in trip times at the beginning and end of each weekday
-<br />
+Furthermore, placing stations so that commuters would have an easier time utilizing the bikes would be good.  Some examples would be near parking garages, train and bus stops, and near places with many employees.<br />
+
+## Recommendations for Further Study
+A next step in this study should include data on Des Moines, Iowa.  A map of the city's parking garages and bus and train stops would be invaluable in helping to determine optimum bike station locations.  Surveys of downtown employees on their thoughts about a bikesharing program should be performed, as well as studies on the commutes of residents (are they parking in a garage right next to their places of business or is there a walk?).
+
+
