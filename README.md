@@ -16,7 +16,7 @@ An obvious concern for this study are the differences between New York City (whe
 The length of bike usage by gender is shown in the plot below <br /> 
 ![](/Plots/Trips%20by%20Age%20and%20Gender.png)
 The majority of trips take roughly 5-10 minutes (regardless of gender) with very few taking more than 35 minutes.  This suggests that most rides are within a few blocks, probably used as transportation rather than for tourism or sight-seeing.  This is supported by the fact that roughly 80% of citibike users were regular subscribers, who would most likely live in the city rather than be visiting (see figure below).
-![](/Plots/Trips%20by%20Age%20and%20Gender.png)
+![](/Plots/User%20Type.png)
 
 
 ## Summary
