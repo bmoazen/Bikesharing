@@ -1,6 +1,6 @@
 # Bikesharing
 ## Overview of the Analysis
-In this analysis, we were tasked with using Tableau to look into investing in a bikesharing venture in the city of Des Moines, Iowa. To aid us in our decision-making, we pulled data from the New York [Citi Bike System Data](https://ride.citibikenyc.com/system-data) page, which contains donwloadable files of Citi Bike tip data. For this analysis, we looked at data taken in August of 2019. We used python to put the data into the desired data types and then utilized Tableau for the visualization.
+In this analysis, we were tasked with using Tableau to look into investing in a bikesharing venture in the city of Des Moines, Iowa. To aid us in our decision-making, we pulled data from the New York [Citi Bike System Data](https://ride.citibikenyc.com/system-data) page, which contains donwloadable files of Citi Bike tip data. Here, we looked at data taken in August of 2019. We used python to put the data into the desired data types and then utilized Tableau for the visualization.
 <br />
 ## Resources
 VS Code<br />
@@ -9,7 +9,7 @@ Tableau version 3.7.6 ([Tableau Workbook Link](https://public.tableau.com/app/pr
 
 ## Results
 ### Concerns Regarding Data
-An obvious concern for this study are the differences between New York City (where the citibike analysis data is from) and Des Moines, Iowa.  Specifically, would it be reasonable to assume trends in NYC could indicate anything similar in Des Moines?  One piece of valuable data we could look at it citibike usage broken down by age and gender.  Shown below is a breakdown of the proportion of NYC citibike riders by ages and gender.  The peaks for both female and male occur in the 25-35 year age range.  The median ages of Des Moines residents is currently 34.2 years (male) and 33.4 years (female) ([Source: World Population Review](https://worldpopulationreview.com/us-cities/des-moines-ia-population)), which translates well, especially considering the NYC median ages are 38.1 and 35.4 for females and males, respectively.  This suggests that the similarity bewteen the Des Moines and New York City age demographics make  comparisons between them reasonable.  Note that genders that were listed as "unknown" or not entered were ignored in these calculations.<br />  
+An obvious concern for this study are the differences between New York City (where the citibike analysis data is from) and Des Moines, Iowa.  Specifically, would it be reasonable to assume trends in NYC could indicate anything similar in Des Moines?  One piece of valuable data we could look at it citibike usage broken down by age and gender.  Shown below is a breakdown of the proportion of NYC citibike riders by ages and gender.  The peaks for both female and male occur in the 25-35 year age range.  The median ages of Des Moines residents is currently 34.2 years (male) and 33.4 years (female) ([Source: World Population Review](https://worldpopulationreview.com/us-cities/des-moines-ia-population)), which translates well, considering the NYC median ages are 38.1 and 35.4 for females and males, respectively.  This suggests that the similarity bewteen the Des Moines and New York City age demographics make comparisons between them reasonable.  Note that genders that were listed as "unknown" or not entered were ignored in these calculations.<br />  
 ![](/Plots/Trips%20by%20Age%20and%20Gender.png)
 
 ### Citibike Usage Map
@@ -32,13 +32,14 @@ Just as the trip duration analysis indicated, looking at trip ending times by we
 ## Summary of Data
 A brief summary of the NYC Citibike data is given below:
 - the largest number of trips originated from the station nearest to Grand Central Station
-- Most trips range have a duration of roughly 5-10 minutes
+- Most trips have a duration of roughly 5-10 minutes
 - Subscribers make about 80% of trips
 - Peak times include the morning and evening "rush hours" and Saturday afternoons
 <br />
 
 ## Recommendations for Implementation
-The analysis indicates that the best approach to implementing a succesful bikesharing program would be to focus on gaining subscribers rather than focusing on tourists, especially given the relatively few number of tourists in Des Moines, Iowa compared to that of New York City. Reasons supporting this conclusion imclude:
+The analysis indicates that the best approach to implementing a succesful bikesharing program would be to focus on gaining subscribers rather than focusing on tourists, especially given the relatively few number of tourists in Des Moines, Iowa compared to that of New York City. Reasons supporting this conclusion include:
+- subscribers making about 80% of the total bikesharing trips in NYC
 - the peak in trip data originating at Grand Central Station (commuters)
 - the peak in trip duration (for both genders) of 5-10 minutes
 - the peaks in trip times at the beginning and end of each weekday<br />
